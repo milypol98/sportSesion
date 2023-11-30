@@ -1,4 +1,4 @@
-package pl.milypol.sportSesion.demo;
+package pl.milypol.sportSesion.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
