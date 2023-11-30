@@ -17,5 +17,7 @@ public class GamePlace {
     private String description;
     private String address;
     private String surfaceType;
+    private Integer pricePerHour;
+
 
 }

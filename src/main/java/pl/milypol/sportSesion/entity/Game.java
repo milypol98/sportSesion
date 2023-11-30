@@ -22,5 +22,7 @@ public class Game {
     private Integer hostScore;
     @OneToOne
     private Judge judge;
+    @OneToOne
+    private User user;
 
 }

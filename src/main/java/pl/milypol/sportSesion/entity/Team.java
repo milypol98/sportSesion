@@ -19,4 +19,6 @@ public class Team {
     private List<User> users;
     @OneToOne
     private Discipline discipline;
+    @OneToOne
+    private User capitan;
 }
