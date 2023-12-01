@@ -31,7 +31,7 @@ public class GamePlaceServiceImpl implements GamePlaceService {
     }
 
     @Override
-    public Optional<GamePlace> getById(Integer placeId) {
+    public Optional<GamePlace> getByGamePlaceId(Integer placeId) {
         return gamePlaceRepository.findById(placeId);
     }
 }

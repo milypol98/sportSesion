@@ -8,5 +8,5 @@ public interface GamePlaceService {
     void addPlace(GamePlace gamePlace);
     void deletePlace(Integer placeId);
     void updatePlace(GamePlace gamePlace);
-    Optional<GamePlace> getById(Integer placeId);
+    Optional<GamePlace> getByGamePlaceId(Integer placeId);
 }

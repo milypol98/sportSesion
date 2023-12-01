@@ -12,8 +12,8 @@ public interface GameService {
     Optional<Game> getGameById(Integer gameId);
     List<Game> getByPlaceId(Integer placeId);
     List<Game> getByJudgeId(Integer judgeId);
-    List<Game> getByGuestId(Integer judgeId);
-    List<Game> getByHostId(Integer judgeId);
+    List<Game> getByGuestId(Integer guestId);
+    List<Game> getByHostId(Integer hostId);
 
 
 }
